@@ -316,7 +316,7 @@ Save the forests and change the climate.
             <img
               src={`../Images/Home/Intersect.png`}
               alt="home"
-              className="h-[90vh]"
+              className="h-[100vh]"
             />
             </div>
           </div>
@@ -327,6 +327,7 @@ Save the forests and change the climate.
             >
               About us
             </h1>
+            {/* <div> hello new worls</div> */}
           </div>
         </div>
       </section>
