@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  font-family: "Noto Sans", sans-serif;
+
+}
+.heading{
+  font-family: "Milonga", serif;
+
+}
+.title{
+  font-family: "Quicksand", sans-serif;
+
+}
+
+.shadowcsss{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {}
+
+@media only screen and (min-width: 900px) and (max-width: 1023px) {
+
+    .desktop-heading{
+        display: block!important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+    .desktop-heading{
+        display: block!important;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 768px) {
+    .container{
+        width:100%;
+    }
+    .desktop{
+        display: block!important;
+    }
+    .gallery{
+        columns: 100px 2!important;
+    }
+    .desktop-heading{
+        display: block!important;
+    }
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 640px) {
+    .container{
+        width:100%!important;
+        margin:0px!important;
+        max-width: 100%!important;
+    }
+    .desktop{
+        display: block!important;
+    }
+    .gallery{
+        columns: 100px 1!important;
+    }
+    .desktop-heading{
+        display: block!important;
+    }
+    
+}
