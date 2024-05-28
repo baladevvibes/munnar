@@ -18,8 +18,7 @@ import { GoDiamond } from "react-icons/go";
 import green from "../../public/Images/Home/green.jpg";
 
 export default function HomePage() {
-  
-  const [controlVideo, setVideoControl]   = useState(false);
+  const [controlVideo, setVideoControl] = useState(false);
   const handleVideoContoller = () => {
     var ciiVideo = document.getElementById("video");
 
@@ -301,21 +300,34 @@ export default function HomePage() {
       </section>
 
       <section>
-      <h1
-            data-aos="fade-up"
-            className={` text-center py-4  heading text-primary text-4xl  font-semibold`}
-          >
-            About us
-          </h1>
-          <img src={`../public/Images/Home/green.jpg`}/>
+        {/* <img src={CIIE} alt="" className="h-[100vh]"/> */}
 
-        
-          {/* <img src={CIIE} alt="" className="h-[100vh]"/> */}
-
-        <div className={` grid grid-cols-2`}>
-          <div>
+        <div className={` grid grid-cols-5`}>
+          <div className="col-span-3">
+            <div className="relative">
+              <div className="rotate-[270deg] ">
+            <h1
+              // data-aos="fade-up"
+              className={`  text-center absolute w-[60%] bottom-[-50%] -left-32 py-4  pt-8 heading text-white text-6xl  font-semibold`}
+            >
+Save the forests and change the climate.
+            </h1>
+            </div>
+            <img
+              src={`../Images/Home/Intersect.png`}
+              alt="home"
+              className="h-[90vh]"
+            />
+            </div>
           </div>
-          <div>Hello</div>
+          <div>
+          <h1
+              data-aos="fade-up"
+              className={` text-center py-10  heading text-primary text-4xl  font-semibold`}
+            >
+              About us
+            </h1>
+          </div>
         </div>
       </section>
 
@@ -324,7 +336,7 @@ export default function HomePage() {
           <div className={` `}>
             <h1
               data-aos="fade-up"
-              className={` text-center py-10  heading text-primary text-4xl  font-semibold`}
+              className={` text-center py-10 pt-16  heading text-primary text-4xl  font-semibold`}
             >
               Our Cottage
             </h1>
