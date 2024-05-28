@@ -326,6 +326,7 @@ Save the forests and change the climate.
               className={` text-center py-10  heading text-primary text-4xl  font-semibold`}
             >
               About us
+              
             </h1>
             {/* <div> hello new worls</div> */}
           </div>
