@@ -16,7 +16,6 @@ import { RiTwitterXFill } from "react-icons/ri";
 import { LuInstagram } from "react-icons/lu";
 import { GoDiamond } from "react-icons/go";
 import green from "../../public/Images/Home/green.jpg";
-// import aboutusImage from "../../public/Images/Home/about.png";
 
 export default function HomePage() {
   
