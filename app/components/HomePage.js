@@ -19,7 +19,7 @@ import green from "../../public/Images/Home/green.jpg";
 
 export default function HomePage() {
   
-  const [controlVideo, setVideoControl] = useState(false);
+  const [controlVideo, setVideoControl]   = useState(false);
   const handleVideoContoller = () => {
     var ciiVideo = document.getElementById("video");
 
